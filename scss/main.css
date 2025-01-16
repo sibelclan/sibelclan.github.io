@@ -367,7 +367,7 @@ video {
   display: block;
   border-style: solid;
   border-color: #ffffff;
-  background-color: #ffffff;
+  color: #ffffff;
   border-width: 3px;
   font-family: "Kanit", sans-serif;
   text-decoration: none;
@@ -380,54 +380,27 @@ video {
   justify-content: center;
   align-items: center; }
 
-.button.expand {
-  width: 100%; }
-
 .button.button-center {
   margin: auto; }
-
-.button-hollow.button-center {
-  margin: auto; }
-
-.dark .button {
-  color: #000000; }
-
-.light .button {
-  color: white; }
-
-.gloaming .button {
-  color: white; }
 
 .button:after {
   float: right;
   margin-left: .75em;
   margin-top: 4px; }
 
-.button-hollow {
-  display: block;
-  border-style: solid;
+.button.button-black {
+  border-color: #000000;
+  color: #000000; }
+
+.button:hover {
   border-color: #ffffff;
-  border-width: 3px;
-  font-family: "Kanit", sans-serif;
-  text-decoration: none;
-  width: fit-content;
-  font-size: 1.3em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  padding-left: 1.4em;
-  padding-right: 1.4em;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;
+  color: #000000; }
+
+.button.button-black:hover {
+  border-color: #000000;
+  background-color: #000000;
   color: #ffffff; }
 
-.button.button-green {
-  background-color: #ffffff !important;
-  border-style: none;
-  color: #000000;
-  text-align: center; }
-
-.button.button-dark {
-  background-color: #000000 !important;
-  border-style: none;
-  color: #f1fff9;
-  text-align: center; }
+a:hover {
+  text-decoration: none; }
