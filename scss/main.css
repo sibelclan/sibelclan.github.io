@@ -232,6 +232,17 @@ img.avatar {
   width: 6em;
   height: 6em; }
 
+p.review {
+  font-style: italic; }
+
+p a {
+  color: #000000;
+  text-decoration: underline; }
+
+p a:hover {
+  color: #444444;
+  text-decoration: none; }
+
 @media (min-width: 992px) {
   div.container img.img-fluid.pad {
     padding: 1.5em; } }
