@@ -404,3 +404,27 @@ video {
 
 a:hover {
   text-decoration: none; }
+
+footer {
+  background-color: black;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+footer p {
+  font-size: 0.8em; }
+  @media (max-width: 768px) {
+    footer p {
+      display: flex;
+      flex-direction: column;
+      line-height: 1em; } }
+footer a {
+  color: #8d9199; }
+
+footer a:hover {
+  color: #d1d3d6;
+  text-decoration: none; }
+
+.social-icon {
+  width: 50px; }
+  .social-icon:hover {
+    transform: scale(1.1); }
